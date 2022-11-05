@@ -22,3 +22,11 @@ class Instructor(db.Model):
   instructor_3_name = db.Column(db.String())
   instructor_3_mail = db.Column(db.String())
   dept_name = db.Column(db.String(), unique=True, nullable=False)
+
+class Department(db.Model):
+  __tablename = 'department_table'
+  department_id = db.Column(db.Integer(), primary_key = True, auto_increment = True)
+  department_name = db.Column(db.String(), unique=True, nullable = False)
+  hod_name = db.Column(db.String(), unique=True, nullable = False)
+  hod_mail = db.Column(db.String(), unique=True, nullable = False)
+  
