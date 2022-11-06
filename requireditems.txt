@@ -1,0 +1,25 @@
+Students:
+od-form
+leave form - hostel, dayscholar
+hostel-outing form
+main gate register
+
+Staffs:
+leave form
+main gate register
+
+
+STUDENTS:
+
+Students login:
+-> using official mail id
+student home page:
+ - Student photo
+ - Student name
+ - Student roll number
+ - Student class (Eg: III-CSE-B)
+ - Dayscholar/hosteller
+ - No of OD forms attained
+ - No of leave forms attained
+ - No of main gate register forms attained
+ - No of outing forms(if hosteller) attained + leave form for hostel
